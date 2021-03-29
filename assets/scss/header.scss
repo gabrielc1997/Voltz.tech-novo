@@ -1,3 +1,93 @@
 header{
-    
+    .navbar-toggler{
+        border: none !important;
+        width: auto !important;
+    }
+
+    .navbar-brand{
+        @media (max-width: $lg) {
+            width: 80%;
+
+
+            img{
+                position: relative;
+                left: 50%;
+            }
+        }
+    }
+
+
+
+    .collapsing{
+        transition:none !important
+    }
+    .show{
+        height: 100vh;
+        
+        background-color: $blue;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+
+
+        z-index: 2;
+
+
+
+    .navbar-toggler{
+        span{
+            color: white;
+            position: absolute;
+            right: 50px;
+        }
+    }
+
+
+
+
+
+
+
+        ul{
+
+            height: 100vh;
+            z-index: 50;
+            width: 100%;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0px !important;
+
+            li{
+                height: 15%;
+                width: 80%;
+                border-top: 1px solid $white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                a{
+
+                    font-size: 16px;
+                    color: white !important;
+                    font-weight: bold;
+
+
+
+                }
+                button{
+                    background-color: unset !important;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 16px;
+                    
+                }
+            }
+
+
+
+        }
+    }
 }

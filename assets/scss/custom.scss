@@ -14,9 +14,10 @@ button,h1,h2,h3,p,a{
     font-family: 'Montserrat', sans-serif !important;
 
 }
-body{
+html, body{
 
 overflow-x: hidden;
+max-width: 100vw;
 }
 h1 {
     font-weight: bold;
@@ -46,4 +47,25 @@ color: $blue;
     background: #03045C;
     color: $white;
 }
+}
+a{
+    text-decoration:none !important; 
+}
+.flickity-viewport{
+    width: 100%;
+    .flickity-slider{
+        width: 100%;
+    }
+}
+ul{
+    &:focus{
+        outline: none !important;
+    }
+}
+div{
+    &:focus{
+
+            outline: none !important;
+
+    }
 }
