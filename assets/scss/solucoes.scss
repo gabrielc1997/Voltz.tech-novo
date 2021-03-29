@@ -1,0 +1,41 @@
+.solucoes {
+    background-color: #f4f4f4;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    h2{
+        margin-bottom: 48px;
+    }
+    .cards {
+        background-color: $white;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+        border-radius: 16px;
+        height: 248px;
+        padding: 24px;
+        margin-bottom: 40px;
+        &:active{
+            background: linear-gradient(231.89deg, #279df1 0%, #ff0000 100%);
+        }
+        p{
+            margin: 0px;
+            font-weight: 500;
+            font-size: 24px;
+        }
+    }
+    .divisor{
+        height: 1px;
+        width: 100%;
+        margin-bottom: 40px;
+
+    }
+    h3{
+        font-weight: 700;
+        font-size: 24px;
+        padding-bottom: 24px;
+    }
+    button{
+        background-color: #f4f4f4;
+        &:hover{
+            background-color: $blue;
+        }
+    }
+}

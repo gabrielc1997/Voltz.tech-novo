@@ -1,0 +1,41 @@
+.impulsione{
+    // background-image: url('../images/Group\ 34.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 71px;
+    h1{
+        padding-bottom: 32px;
+        font-family: 'fonte'  !important;
+        font-weight: bold;
+        font-size: 48px;
+    }
+    h2{
+        padding-bottom: 40px;
+        font-family: 'fonte'  !important;
+        font-size: 24px;
+    }
+}
+.tecnologia{
+    margin-bottom: 96px;
+    .all-content{
+        padding: 45px 34px;
+        border-radius: 16px;
+
+    }
+    .content-image{
+        padding-right: 54px;
+
+    }
+
+    .content-text{
+        h3{
+            font-family: 'fonte'  !important;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        p{
+            font-weight: 400;
+        }
+
+    }
+}

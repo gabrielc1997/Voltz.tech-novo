@@ -1,0 +1,49 @@
+
+@font-face {
+    font-family: 'fonte';src: url('../images/ProximaNova-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {font-family: 'fonte';src: url('../images/ProximaNova-Regular.otf');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+
+button,h1,h2,h3,p,a{
+    font-family: 'Montserrat', sans-serif !important;
+
+}
+body{
+
+overflow-x: hidden;
+}
+h1 {
+    font-weight: bold;
+    font-size: 32px;
+}
+h2{
+    font-weight: 500;
+    font-size: 32px;
+}
+h3{
+    font-weight: normal;
+    font-size: 24px;
+}
+button{
+    background: #FFFFFF;
+/* Blue/Primary */
+
+border: 1px solid $blue;
+box-sizing: border-box;
+border-radius: 8px;
+font-weight: 500;
+font-size: 16px;
+width: 232px;
+height: 40px;
+color: $blue;
+&:hover{
+    background: #03045C;
+    color: $white;
+}
+}

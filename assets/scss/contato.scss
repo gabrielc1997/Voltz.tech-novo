@@ -1,0 +1,28 @@
+.contato {
+    margin-top: 96px;
+    margin-bottom: 96px;
+    h2{
+
+        margin-bottom: 40px;
+    }
+    input {
+        background: #ffffff;
+        border: 1px solid #03045c;
+        box-sizing: border-box;
+        border-radius: 8px;
+        width: 100%;
+        height: 56px;
+    }
+    label {
+        position: relative;
+        top: 22px;
+        left: 22px;
+        background-color: white;
+        color: $blue;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .inputs{
+        margin-bottom: 24px;
+    }
+}
